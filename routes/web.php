@@ -13,7 +13,8 @@
 
 Route::get('/', function () {
     return view('welcome', [
-        'name' => 'World'
+        'name' => 'World .',
+        'message' => 'Welcome to my Laracasts Blog app - watch this space ...'
     ]);
 
 });
