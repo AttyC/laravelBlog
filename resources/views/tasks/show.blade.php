@@ -56,14 +56,6 @@
     <title>About this app</title>
 </head>
 <body>
-    <header class="container fullwidth"><h1> Your list, madam</h1></header>
-    <div class="container">
-        
-         <ul>
-            @foreach($tasks as $task)
-                <li>{{ $task->body }}</li>
-            @endforeach
-        </ul> 
-    </div>
+   <h1>{{ $task->body }}</h1>
 </body>
 </html>
